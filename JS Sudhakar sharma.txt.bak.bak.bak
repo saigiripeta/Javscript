@@ -1,0 +1,399 @@
+JavaScript Sudhakar Shrama 
+--------------------------
+
+Day 1:
+======
+Javascript is lightWeight Interpretted and just in time Compiled Programming language.
+
+
+1)Light Weight refers to memory occupied and how heavy the application is.
+
+2)Interpretted refers to line by line translation or Execution.
+
+3)Compiled referes to Translating entire program, all lines of program are translated simultaneously at the same time .
+
+a) JIT 
+b) AOT
+
+JIT [JUST IN TIME] :-
+----------------------
+is the process where javascript is loaded into browser and compiled in the browser. But not compile in the application level.
+
+AOT [AHEAD OF TIME] :-
+----------------------
+Is the process where javascript is compiled and processed at application level . And also send the result to the Browser and it will decrese the Burden on the Browser.
+
+
+a)More faster .
+b)More Better in  Performance .
+c)And It will Reduce the Budern on the Browser And it will increase the javascript applications.
+
+
+We can use Various Engines and Compilers.
+
+             a)IVY (engine)
+	     b)Babel (compiler)
+
+
+-Javascript is a language which is used 
+
+a)Clinet side      :With Html, React , Angular.
+b)server side      :Node js .
+c)Database         : Mongo DB.
+d)Animation        : Flash , 3Ds Max.
+
+-Javascripts Supports various Programming techniques and approaches
+a)structral programming
+b)Functional
+c)Imperative 
+d)OOPs 
+
+-Javscript is not an oop language , It supports only few Features of OOP.
+
+Evolution Of Js
+-1990's Tim Berners Lee Introduced Introduced HTML and Web.
+-1990's early browser were Mosiac(1), Netscape(2).
+-These browsers used  Html as Markup language and ECMA script as client side script.
+ 
+-In early 1995 NetScape appointed "Brendan Eich" To develop script for Browser [MDN] Mozilla developer Network.
+
+                      -ECMA  [European Computer Manufacturers Association]
+		      -MDN   [Mozilla developer Network]
+
+-First was named as "Moca" after that renamed as "LiveScript".
+-Script belongs to Netscape.
+-Netscape give the rights of mainating scripts to a company called 
+"Sun Micro systems".
+-Sun Micro System named the script as "Javascript".
+-React  Mainatined( FB), Angular Mainatined (Google).
+-2000 Netscape stopped it services, javascript was given to ECMA.
+-2014 javascript.
+-2015 ECMA version ES5 = ECMAScript 2015.
+-Current latest version of js is "ECMA 2022".
+
+
+What is the role of js with HTML?
+-DOM manipulations.
+
+      -Adding Elements into page.
+      -Remove Elements from page.
+      -Update data into elements
+
+-Client side Validations.
+-Clinet side Intercations.
+-Handling Plugin and Extentions.
+
+
+What is the role of js Server side?
+
+-Server side Intercations
+     a)Request 
+     b)Response
+
+-server side objects
+     a)Memory
+     b)OS
+     c)Files
+-Configuring API's
+-Handling Communication Between clinet and database etc.
+
+What is the role of javascript in Database?
+-To handle CRUD operations.
+-DBA
+
+What is the role of javascript in Animations?
+-Transsitioons
+-Animations
+-KeyFrames
+-2D and 3D Games.
+
+What is the role of javascript in Mobile Apps ?
+-Touch Events
+-View Design
+-Apache Cordova, IOnic , Native.
+
+
+
+=======================================END OF DAY ONE======================================================
+
+
+Day 2:-
+=======
+
+SetUp Enviornment for javascript
+
+1.Install "Node js " On Your PC
+
+Node js         : Server side programmingg library.
+Node compiler   : It is used to compile and run js Programs.
+NPM             : Node package manager.
+                  [YARN,COMPOSER, NuGeT].
+
+1)What is Package Manager?
+A) It is a software tool used by developers to install , update and remove libraries from project.
+
+2)Check node js version
+A)  node -v     version > 14
+    npm -v      version > 6
+
+
+3. Download and install VS code .
+-Editor Provides an IDE [Integrated Developement Enviornmemnt].
+-Build , Debug , Test , Deploy.
+
+To see all Editors ==>    https://editorconfig.org/
+
+4. Open vs code and install some Extenstions.
+1)Live server
+2)vs code icons
+
+
+5) Set Up for a js Project
+
+Add Followinf folders into project:-
+
+a) public    : it is ude to Keep all static Resources      [html,images,text, pdf,ppt,docx,mp4].
+b)src        :It is used to keep all the Dynamic resources [js, ts, css,sass ].
+
+
+6) open Terminal in vs code [Terminal is command line to the Run commands].
+
+>Run the command 
+
+     >npm init   [-y]  ==> it is used to initilize the project  and it generates the package.json.
+                          package.json is a file that contains the project meta data.
+
+                  
+It will give all sample Project   ==>    https://www.codeproject.com/
+
+
+PMD it will analyzie our code    ===>  https://pmd.github.io/pmd/pmd_rules_java_codestyle.html
+
+
+ESlint it is the analyzie our js code   ===>   https://eslint.org/
+
+Install ESLint Configuration . It is used to Verify the code and report the issues in code [issues relaetd to Coding standards].
+
+
+=======================================END OF DAY TWO======================================================
+
+
+Day 3
+-----
+
+JAVASCRIPT
+
+-Javascript is used Client side with HTML.
+-Javascript is used for 
+                   a)DOM Manipulations.     [10:40]
+		   -Adding Elements.
+		   -Removing Elements
+		   -Updating data into elements.
+
+
+Performace in the Browser in the RealTime.
+
+
+                   b)Handling Browser Objects
+		    -Location
+		    -navigator
+		    -History
+		    -Document
+		    -Window
+
+		    C)Cleint side Validations
+		    -Verfiy user Input
+		    -Ensure that Contradictionary (means expections data)and unauthorized data is not stored into database.
+		    -reduce Burden of Server.
+
+		
+
+
+What are the issues with the javascript?
+Ans) Javascript is not a strongly Typed Language.
+
+
+    It is Called as Dynamic Typed .
+   
+      var age =23;
+      age  ="john";   // valid 
+      age = true      // valid
+
+ -javascript is not implicitly strictly typed .  
+
+ If any developer write the code without following the standards it will accepts . We have manually tell . By using the ESLint.
+
+
+                    x = 10;   // valid 
+
+without decleard a variable also. It is also valid.It is Bad Pratice.
+
+-Javascript is not an OOP language.
+              -Extensibility Isuues
+	      -Code level Security Issues
+	      -Reusability Issues
+
+
+-Javascript is not having features for dynamic Polymorphism.
+
+-Javascript Can be disable by Browser.
+
+Blocking the javascript in Our Browser .
+
+We can test using the <noscript> Please allow the javascript</noscript> 
+
+Q)What is the solution?
+A) Typescript
+
+
+
+
+Pratical Work  :-
+==================
+
+DOMContentLoaded()
+
+Static Dom into Dynamic DOm
+
+Q) How javscript Converts Static Dom Into Dynamic DOM?
+A) By Integrating javascript functions into page.
+
+Q) How javascript can be Integrated into page?
+A) In the  THREE (3)different  ways .
+
+     a)Inline 
+     b)Embedded
+     c)External file
+
+
+                    Inline javascript 
+                    -----------------
+-In this Technique javascript functions are directly written in Html elements start Tag.
+
+<button onClick="window.print()"> Print </button>
+
+
+Advantage:-
+-----------
+-It is the faster In responding.
+
+
+DrawBack:
+--------
+-It is not good for the reusability.
+
+
+
+
+
+                     Embedded JS:
+                     ------------
+-Javascript functions are kept in a <script> Container And can be accessed from any element.
+
+The script Container can be in <head> or <body>.
+-you have to define functions in <script> Container.
+
+
+Advantage :
+----------
+It is Resuable code .
+
+
+DrawBack:
+--------
+It is slow when we compared to the Inline Js.
+you can't re-use accross pages
+
+
+<script>
+
+     function PrintPage(){
+     
+     Window.print();
+     }
+
+</script>
+
+<button onclick="printPage()"> Print page </button>
+
+
+
+Q)What is diffrence Between script in head and Body?
+A)Script Head section is intended to load browser memory and later accessed
+by page when ever required.
+
+Script in body section is intended to load into page directly, It is not in memory of browser.
+
+
+      
+
+=======================================END OF DAY Three======================================================
+
+
+Day 4:-
+-------
+
+
+
+1.Javascript Inline
+2.javascript Embedded
+
+1) Where to embed in head or body?
+2)What is The MIME type of script? MIME [Multi purpose Internet mail Extenstions]
+
+A) javascript is used in various methods
+                a)Interpretted
+		b)Compiled
+
+If your javascript is used with html in browser then MIME type is defined as "text/javascript"    - Interpretted
+
+   "text/babel"         -javascript is used with babel compiler
+   "text/module"        -Javscript Module system
+
+
+
+   Syntax:
+   -------
+   <script type="text/javascript">  </script>
+   <script type="text/babel">       </script>
+
+
+Q) What is strict Mode for javascript?
+A)javascript is not implicitly strictly typed.it will not follow programming rules and standars . you have to manually turn on "strict Mode".
+
+If strict Mode is ON then developer have to write as per standards.
+
+You can trun on strict mode by using "use strict" in your code snippet.
+
+
+
+Q) How to target javascript for legacy browsers ? [Old version Browser]
+A)Developer can target new javascript code to the legacy browser by enclosing the code in HTML comments.
+
+Syntax;
+-------
+<script>
+    // "use strict";
+   <!-- x = 10;
+    document.writeln(x); -->
+</script>
+
+
+
+                           External javascript
+			   -------------------
+
+Javascript functions are written in a seperate script file with ".js".
+
+-you can link the script file to any html page by using <script> element.
+
+Features :
+----------
+Clean Seperation of Code and design.
+Hard to test it is embedded , [easy]
+Hard to extend if it is embedded ,[easy]
+
+Issue:
+------
+-using a external file for Html page will increse the number of requests.
+If number of requests are increased for page , then the page load time will increase.
