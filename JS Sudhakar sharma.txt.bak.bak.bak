@@ -397,3 +397,7 @@ Issue:
 ------
 -using a external file for Html page will increse the number of requests.
 If number of requests are increased for page , then the page load time will increase.
+
+
+
+Hello simultaneously
